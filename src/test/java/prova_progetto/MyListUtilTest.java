@@ -19,7 +19,7 @@ public class MyListUtilTest {
     public void testSortAscending() {
         DateTime start = new DateTime();
         System.out.println("Test Start: " + start.toString("yyyy-MM-dd HH:mm:ss"));
-        
+         
         List<Integer> sorted = MyListUtil.sort(list, MyListUtil.Order.ASCENDING);
         
         DateTime end = new DateTime();
